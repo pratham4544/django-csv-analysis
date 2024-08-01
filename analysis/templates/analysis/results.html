@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'analysis/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Analysis Results</h1>
+        <h2>First Few Rows</h2>
+        <div>{{ head|safe }}</div>
+        
+        <h2>Summary Statistics</h2>
+        <div>{{ summary|safe }}</div>
+        
+        <h2>Missing Values</h2>
+        <div>{{ missing_values|safe }}</div>
+
+        <h2>Data Visualization</h2>
+        <img src="data:image/png;base64,{{ plot }}" alt="Data Visualization">
+    </div>
+</body>
+</html>
