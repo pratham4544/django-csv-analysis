@@ -111,5 +111,3 @@ Contributions are welcome! Please fork this repository and submit pull requests.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
-You can copy and paste the above content into your `README.md` file. Make sure to update the repository URL and any other specific details according to your project's configuration.
